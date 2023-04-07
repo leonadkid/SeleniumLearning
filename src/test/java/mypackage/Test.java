@@ -1,20 +1,17 @@
 package mypackage;
 
 import org.example.DayUtility;
-//import org.junit.jupiter.api.Assertions;
-//import org.junit.jupiter.api.BeforeEach;
-//import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.time.LocalDate;
 
-public class test
+public class Test
 {
     //spy:
     private DayUtility dayUtility = Mockito.spy(new DayUtility());
     //private DayUtility dayUtility = Mockito.mock();
 
-//    @Test
+    //    @Test
     public void testCase1()
     {
         //Mon 1

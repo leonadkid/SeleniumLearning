@@ -6,8 +6,10 @@ import java.time.LocalDate;
 
 public class DayUtility
 {
-    public DayUtility(){}
+    public DayUtility() {}
+
     private LocalDate localDate = LocalDate.now();
+
     private int getDayFromToday()
     {
         int day = getCurrentDay().getDayOfWeek().getValue();
@@ -20,14 +22,15 @@ public class DayUtility
     {
         return localDate.now();
     }
-//    @VisibleForTesting
+
+    //    @VisibleForTesting
 //    public void setLocalDate(LocalDate localDate)
 //    {
 //        this.localDate = localDate;
 //    }
     public boolean isDayOff()
     {
-        return getDayFromToday() < 6 ;
+        return getDayFromToday() < 6;
     }
 
     public static void main(String[] args)

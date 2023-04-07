@@ -2,7 +2,6 @@ package testcase;
 
 import base.BaseTest;
 import org.openqa.selenium.By;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utilities.ReadXLS;
 
